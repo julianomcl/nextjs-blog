@@ -1,8 +1,8 @@
 name: Add comment
 on:
-  project_card:
+  projects_v2_item:
     types:
-      - moved
+      - edited
       - converted
 jobs:
   dump_contexts_to_log:
