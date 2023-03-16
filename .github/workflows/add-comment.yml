@@ -1,8 +1,9 @@
 name: Add comment
 on:
-  issues:
+  project_card:
     types:
-      - edited
+      - moved
+      - converted
 jobs:
   dump_contexts_to_log:
     runs-on: ubuntu-latest
